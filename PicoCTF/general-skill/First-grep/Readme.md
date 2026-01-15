@@ -16,3 +16,19 @@ Our goal is to **locate the picoCTF flag efficiently using Linux command-line to
 ### 🔍 Analysis
 The flag format is known:
 
+
+Instead of manually reading the file, we can utilize the Linux `grep` command to search for patterns inside files.
+
+---
+
+### 🛠 Solution
+
+#### Command Used:
+```bash
+grep -o "picoCTF{.*}" file.txt
+```
+🎯 Takeaways
+Learned how to use grep for pattern matching
+Understood regex basics for CTF use-cases
+Demonstrated efficient Linux file analysis
+This skill is useful for log analysis, forensics, and pentesting
