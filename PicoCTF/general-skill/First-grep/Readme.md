@@ -29,6 +29,9 @@ grep -o "picoCTF{.*}" file.txt
 ```
 🎯 Takeaways
 Learned how to use grep for pattern matching
+
 Understood regex basics for CTF use-cases
+
 Demonstrated efficient Linux file analysis
+
 This skill is useful for log analysis, forensics, and pentesting
